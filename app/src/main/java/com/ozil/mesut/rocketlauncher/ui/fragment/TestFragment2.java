@@ -14,10 +14,6 @@ import com.ozil.mesut.rocketlauncher.ui.adapter.TestFragmentAdapter;
 
 import java.util.Arrays;
 
-/**
- * Created by janiszhang on 2016/6/10.
- */
-
 public class TestFragment2 extends android.support.v4.app.Fragment {
 
     private View viewContent;

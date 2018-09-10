@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlowTagLayout-master/FlowTagLayout-master.iml" filepath="$PROJECT_DIR$/FlowTagLayout-master/FlowTagLayout-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiMediaLearning-master.iml" filepath="$PROJECT_DIR$/MultiMediaLearning-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lazyviewpager-master/lazyviewpager-master.iml" filepath="$PROJECT_DIR$/lazyviewpager-master/lazyviewpager-master.iml" />
+    </modules>
+  </component>
+</project>

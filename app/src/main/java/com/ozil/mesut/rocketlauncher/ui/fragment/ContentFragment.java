@@ -56,12 +56,7 @@ public class ContentFragment extends LazyLoadFragment {
         for (int i = 0; i < 50; i++) {
             list.add("我的审批，哈哈哈哈啊哈哈 " + i);
         }
-
-        //赫兹伯格(双因素):
-        //麦克格雷(X Y):
-        //俘虏木(期望理论)
-        //麦克李兰(成就动机理论)
-
+        
         ContentAdapter contentAdapter = new ContentAdapter(getContext(), list);
         mRecyclerView.setAdapter(contentAdapter);
     }
