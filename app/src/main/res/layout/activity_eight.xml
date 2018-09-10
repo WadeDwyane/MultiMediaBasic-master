@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_create_btp"
+        android:text="@string/create_bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imv_show"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"/>
+
+    <Button
+        android:id="@+id/btn_select_pic"
+        android:layout_width="match_parent"
+        android:text="@string/select_pic"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imv_select_show"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"/>
+
+</LinearLayout>

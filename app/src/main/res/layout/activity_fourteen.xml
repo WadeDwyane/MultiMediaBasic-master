@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用JS方法"
+    />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用JS方法且有参数"
+    />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用JS方法且有返回值1"
+    />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用JS方法且有返回值2"
+    />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用JS方法且有返回值3"
+    />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用JS方法且有返回值,获取到Json的数值"
+    />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android调用java方法的返回值,获取JSON数值"
+    />
+
+
+    <com.ozil.mesut.rocketlauncher.view.LinearTabGroup
+        android:id="@+id/ll_tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        app:maxSelect="2">
+
+        <com.ozil.mesut.rocketlauncher.view.TabView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:contentGravity="left|centerVertical"
+            app:drawableGravity="left"
+            app:drawableHeight="15dp"
+            app:drawablePadding="10dp"
+            app:drawableWidth="15dp"
+            app:normalColor="@color/colorAccent"
+            app:normalDrawable="@mipmap/weixuanzhong"
+            app:selectedColor="@color/colorPrimary"
+            app:selectedDrawable="@mipmap/xuanzhong"
+            app:tabText="支付宝"
+            app:textSize="15dp"/>
+
+        <com.ozil.mesut.rocketlauncher.view.TabView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:contentGravity="left|centerHorizontal"
+            app:drawableGravity="left"
+            app:drawableHeight="15dp"
+            app:drawablePadding="10dp"
+            app:drawableWidth="15dp"
+            app:normalColor="@color/colorAccent"
+            app:normalDrawable="@mipmap/weixuanzhong"
+            app:selectedColor="@color/colorPrimary"
+            app:selectedDrawable="@mipmap/xuanzhong"
+            app:tabText="微信"
+            app:textSize="15sp"/>
+
+        <com.ozil.mesut.rocketlauncher.view.TabView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:contentGravity="left|centerVertical"
+            app:drawableGravity="left"
+            app:drawableHeight="15dp"
+            app:drawablePadding="10dp"
+            app:drawableWidth="15dp"
+            app:normalColor="@color/colorAccent"
+            app:normalDrawable="@mipmap/weixuanzhong"
+            app:selectedColor="@color/colorPrimary"
+            app:selectedDrawable="@mipmap/xuanzhong"
+            app:tabText="银联"
+            app:textSize="15sp"/>
+
+
+    </com.ozil.mesut.rocketlauncher.view.LinearTabGroup>
+
+
+
+
+
+    <WebView
+        android:id="@+id/activity_webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </WebView>
+
+
+</LinearLayout>

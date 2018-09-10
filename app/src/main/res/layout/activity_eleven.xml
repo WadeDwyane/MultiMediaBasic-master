@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_playvideo_by_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_video_by_intent"/>
+
+    <Button
+        android:id="@+id/btn_playvideo_by_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_video_by_videoview"/>
+
+    <VideoView
+        android:id="@+id/videoview"
+        android:layout_width="200dip"
+        android:layout_height="100dip"/>
+
+    <Button
+        android:id="@+id/btn_playvideo_by_mediaplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_video_by_mediaplayer"/>
+
+        <SurfaceView
+            android:id="@+id/surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"/>
+
+</LinearLayout>

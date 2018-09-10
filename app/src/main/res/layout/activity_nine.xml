@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_use_inner_audio_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/use_inner_audio_player"/>
+
+        <Button
+            android:id="@+id/btn_create_user_custom_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_user_custom_player"/>
+
+        <Button
+            android:id="@+id/btn_start_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_play"/>
+
+        <Button
+            android:id="@+id/btn_stop_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_play"/>
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:background="#0ff"
+            android:gravity="center"
+            android:text="@string/touch_me"/>
+
+        <Button
+            android:id="@+id/btn_visit_audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/visit_first_audio"/>
+
+        <Button
+            android:id="@+id/btn_play_audio_in_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play_audio_in_service"/>
+
+        <Button
+            android:id="@+id/btn_stop_audio_in_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_audio_in_service"/>
+
+        <Button
+            android:id="@+id/btn_have_fun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/have_fun"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/captureaudio_by_intent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dip"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_captureaudio"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/record_audio"/>
+
+                <Button
+                    android:id="@+id/btn_playaudio"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/play_audio"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/captureaudio_by_audiorecord"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dip"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_captureaudio_byaudiorecord"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/record_audio"/>
+
+                <Button
+                    android:id="@+id/btn_playaudio_byaudiorecord"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/play_audio"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

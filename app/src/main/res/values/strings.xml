@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">RocketLauncher</string>
+    <string name="multimedia_imagedraw">多媒体开发之三种方式绘制图片</string>
+    <string name="imageview_create_image">使用ImageView绘制图片</string>
+    <string name="surfaceview_create_image">使用SurfaceView绘制图片</string>
+    <string name="custom_view_create_image">使用自定义View绘制图片</string>
+
+    <string name="multimedia_audio">多媒体开发之使用AudioRecord采集音频并保存/播放</string>
+    <string name="play_video">播放视频</string>
+    <string name="start_record_audio">开始录音</string>
+    <string name="stop_record_audio">结束录音</string>
+    <string name="play_pcm_record_audio">播放PCM录音</string>
+    <string name="play_wav_record_audio">播放wav录音</string>
+    <string name="pause_record_audio">停止播放录音</string>
+
+    <string name="multimedia_video_use_textureview_preview_video">
+        多媒体开发之使用TextureView来预览Camera数据
+    </string>
+    <string name="multimedia_video_use_surfaceview_preview_video">
+        多媒体开发之使用SurfaceView来预览Camera数据
+    </string>
+    <string name="use_textureview_preview_video">使用TextureView来预览Camera数据</string>
+    <string name="use_surfaceview_preview_video">使用SurfaceView来预览Camera数据</string>
+
+    <string name="multimedia_video_use_api">
+        多媒体开发之使用MediaExtractor、MediaMuxer的API解析和封装mp4文件
+    </string>
+
+    <string name="multimedia_dev_summary">
+        多媒体开发之音视频开发总结
+    </string>
+    <string name="audio_video_mix">音频视频混合</string>
+    <string name="start">开始</string>
+    <string name="multimedia_capture_by_camera">多媒体开发之相机/图片开发</string>
+    <string name="go_capture">通过相机获取一张图片</string>
+    <string name="go_capture_big">获取更大的图片</string>
+    <string name="multimedia_bitmap_create">多媒体开发之位图创建</string>
+    <string name="create_bitmap">创建位图</string>
+    <string name="select_pic">挑选一张图片</string>
+    <string name="multimedia_android_audio">多媒体开发之Android音频开发</string>
+    <string name="use_inner_audio_player">使用内置音频播放器播放音频</string>
+    <string name="create_user_custom_player">创建自定义的音频播放应用</string>
+    <string name="start_play">播放</string>
+    <string name="stop_play">停止</string>
+    <string name="visit_first_audio">通过MediaStore访问音频</string>
+    <string name="play_audio_in_service">开始在后台服务中播放音乐</string>
+    <string name="touch_me">摸我啊</string>
+    <string name="stop_audio_in_service">停止在后台服务中播放音乐</string>
+    <string name="have_fun">have fun</string>
+    <string name="captureaudio_by_intent">通过意图来捕获音频</string>
+    <string name="record_audio">录音</string>
+    <string name="play_audio">播放</string>
+    <string name="multimedia_audio_mix_analysis">多媒体开发之音频合成和分析</string>
+    <string name="captureaudio_by_audiorecord">通过AudioRecord来捕获音频</string>
+    <string name="visual_audio_frequency">可视化音频频率</string>
+    <string name="start_audio_view">开始视频可视化</string>
+    <string name="stop_audio_view">结束视频可视化</string>
+    <string name="multimedia_video_overview">多媒体开发之视频概述</string>
+    <string name="play_video_by_intent">使用Intent打开视频</string>
+    <string name="play_video_by_videoview">使用VideoView打开视频</string>
+    <string name="play_video_by_mediaplayer">使用MediaPlayer播放视频</string>
+    <string name="multimedia_video_advanced">多媒体开发之视频进阶</string>
+    <string name="multimedia_opengl_es">多媒体开发之OpenGL ES开发</string>
+    <string name="android_call_js">多媒体开发之Android调用js</string>
+    <string name="android_flow_layout">Android流式布局</string>
+    <string name="android_check_radio">Android 实现单选</string>
+    <string name="android_radio_radio">Android 实现多选</string>
+    <string name="android_call_js_by_rhino">Android 通过rhino调用js的实践</string>
+    <string name="android_change_top_tab">Android切换顶部tab</string>
+    <string name="me_approval">我审批的</string>
+    <string name="me_launch">我发起的</string>
+    <string name="me">我</string>
+    <string name="lazy_view_pager">ViewPager的懒加载问题</string>
+    <string name="custom_tab_layout">自定义tablayout</string>
+
+
+</resources>

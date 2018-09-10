@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_imagedraw"
+        />
+
+        <Button
+            android:id="@+id/btn_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_audio"
+        />
+
+        <Button
+            android:id="@+id/btn_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_video_use_surfaceview_preview_video"
+        />
+
+        <Button
+            android:id="@+id/btn_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_video_use_textureview_preview_video"
+        />
+
+        <Button
+            android:id="@+id/btn_fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_video_use_api"
+        />
+
+        <Button
+            android:id="@+id/btn_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_video_use_api"
+        />
+
+        <Button
+            android:id="@+id/btn_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_capture_by_camera"
+        />
+
+        <Button
+            android:id="@+id/btn_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_bitmap_create"
+        />
+
+        <Button
+            android:id="@+id/btn_nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_android_audio"
+        />
+
+        <Button
+            android:id="@+id/btn_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_audio_mix_analysis"
+        />
+
+        <Button
+            android:id="@+id/btn_eleven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_video_overview"
+        />
+
+        <Button
+            android:id="@+id/btn_twelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_video_advanced"
+        />
+
+        <Button
+            android:id="@+id/btn_thirteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multimedia_opengl_es"
+        />
+
+        <Button
+            android:id="@+id/btn_fourteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_call_js"
+        />
+
+        <Button
+            android:id="@+id/btn_fifteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_flow_layout"
+        />
+
+        <Button
+            android:id="@+id/btn_sixteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_check_radio"
+        />
+        <Button
+            android:id="@+id/btn_seventeen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_radio_radio"
+        />
+        <Button
+            android:id="@+id/btn_eighteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_call_js_by_rhino"
+        />
+        <Button
+            android:id="@+id/btn_nineteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_change_top_tab"
+        />
+        <Button
+            android:id="@+id/btn_twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lazy_view_pager"
+        />
+        <Button
+            android:id="@+id/btn_twentyoneactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_tab_layout"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

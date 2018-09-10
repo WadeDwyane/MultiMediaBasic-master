@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_botton_text_selected">#ffffff</color>
+    <color name="main_bottom_text_normal">#99c8fc</color>
+
+    <color name="main_bottom_bg">#11000000</color>
+    <color name="essence_tab_selected_bg">#1686f6</color>
+    <color name="essence_tab_normal_bg">#0e67cb</color>
+    <color name="essence_tab_text_color_normal">#ffffff</color>
+    <color name="essence_tab_indicator_color_press">#77E08C</color>
+    <color name="essence_tab_text_color_press">#77E08C</color>
+</resources>

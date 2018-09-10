@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_start_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_audio"/>
+
+    <Button
+        android:id="@+id/btn_stop_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_play"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/visual_audio_frequency"/>
+
+    <Button
+        android:id="@+id/btn_start_audioview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_audio_view"/>
+
+    <Button
+        android:id="@+id/btn_stop_audioview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_audio_view"/>
+
+    <ImageView
+        android:id="@+id/imv_audioview"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"/>
+
+
+</LinearLayout>

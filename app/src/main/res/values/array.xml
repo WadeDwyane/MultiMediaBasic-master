@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="documents_other">
+        <item>标准合同</item>
+        <item>结算与付款条款</item>
+        <item>授权委托书</item>
+        <item>优惠方案</item>
+        <item>盈亏平衡表</item>
+        <item>补充协议</item>
+    </string-array>
+
+    <string-array name="me_approval">
+        <item>待审批</item>
+        <item>已审批</item>
+        <item>全部</item>
+    </string-array>
+
+    <string-array name="me_launch">
+        <item>审核中</item>
+        <item>未审核</item>
+        <item>已办结</item>
+        <item>全部</item>
+    </string-array>
+</resources>
